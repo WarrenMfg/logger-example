@@ -4,7 +4,7 @@ import React, { useRef } from 'react';
 import { logAnalytics, logError, handleErrors } from '../utils';
 
 /**
- * App - stateful functional component
+ * App - functional component
  */
 function App() {
   // track container for outputting logs
