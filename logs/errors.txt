@@ -1,222 +1,46 @@
+
 {
-  "time": "Friday, March 19, 2021 3:10:35 PM",
-  "message": "Action that throws error was triggered.",
+  "time": "Monday, March 22, 2021 3:58:30 PM",
+  "message": {},
   "stack": [
-    "Error: Action that throws error was triggered.",
-    "at handleDoSomethingBad (http://localhost:5500/src.e31bb0bc.js:30718:13)",
-    "at HTMLUnknownElement.callCallback (http://localhost:5500/src.e31bb0bc.js:7634:18)",
-    "at Object.invokeGuardedCallbackDev (http://localhost:5500/src.e31bb0bc.js:7683:20)",
-    "at invokeGuardedCallback (http://localhost:5500/src.e31bb0bc.js:7743:35)",
-    "at invokeGuardedCallbackAndCatchFirstError (http://localhost:5500/src.e31bb0bc.js:7758:29)",
-    "at executeDispatch (http://localhost:5500/src.e31bb0bc.js:11993:7)",
-    "at processDispatchQueueItemsInOrder (http://localhost:5500/src.e31bb0bc.js:12025:11)",
-    "at processDispatchQueue (http://localhost:5500/src.e31bb0bc.js:12038:9)",
-    "at dispatchEventsForPlugins (http://localhost:5500/src.e31bb0bc.js:12049:7)",
-    "at http://localhost:5500/src.e31bb0bc.js:12260:16"
+    "at ButtonsAndTimeline (http://localhost:5500/src.e31bb0bc.js:32077:49)",
+    "at ErrorBoundary (http://localhost:5500/src.e31bb0bc.js:31924:34)",
+    "at App"
   ]
 },
 {
-  "time": "Friday, March 19, 2021 3:10:37 PM",
-  "message": "Action that throws error was triggered.",
+  "time": "Monday, March 22, 2021 3:59:10 PM",
+  "message": {},
   "stack": [
-    "Error: Action that throws error was triggered.",
-    "at handleDoSomethingBad (http://localhost:5500/src.e31bb0bc.js:30718:13)",
-    "at HTMLUnknownElement.callCallback (http://localhost:5500/src.e31bb0bc.js:7634:18)",
-    "at Object.invokeGuardedCallbackDev (http://localhost:5500/src.e31bb0bc.js:7683:20)",
-    "at invokeGuardedCallback (http://localhost:5500/src.e31bb0bc.js:7743:35)",
-    "at invokeGuardedCallbackAndCatchFirstError (http://localhost:5500/src.e31bb0bc.js:7758:29)",
-    "at executeDispatch (http://localhost:5500/src.e31bb0bc.js:11993:7)",
-    "at processDispatchQueueItemsInOrder (http://localhost:5500/src.e31bb0bc.js:12025:11)",
-    "at processDispatchQueue (http://localhost:5500/src.e31bb0bc.js:12038:9)",
-    "at dispatchEventsForPlugins (http://localhost:5500/src.e31bb0bc.js:12049:7)",
-    "at http://localhost:5500/src.e31bb0bc.js:12260:16"
+    "at ButtonsAndTimeline (http://localhost:5500/src.e31bb0bc.js:32081:49)",
+    "at ErrorBoundary (http://localhost:5500/src.e31bb0bc.js:31924:34)",
+    "at App"
   ]
 },
 {
-  "time": "Friday, March 19, 2021 3:19:37 PM",
-  "message": "Unexpected token < in JSON at position 0",
+  "time": "Monday, March 22, 2021 3:59:57 PM",
+  "message": {},
   "stack": [
-    "SyntaxError: Unexpected token < in JSON at position 0"
+    "at ButtonsAndTimeline (http://localhost:5500/src.e31bb0bc.js:32076:49)",
+    "at ErrorBoundary (http://localhost:5500/src.e31bb0bc.js:31924:34)",
+    "at App"
   ]
 },
 {
-  "time": "Friday, March 19, 2021 3:21:51 PM",
-  "message": "Unexpected token < in JSON at position 0",
+  "time": "Monday, March 22, 2021 3:59:59 PM",
+  "message": {},
   "stack": [
-    "SyntaxError: Unexpected token < in JSON at position 0"
+    "at ButtonsAndTimeline (http://localhost:5500/src.e31bb0bc.js:32076:49)",
+    "at ErrorBoundary (http://localhost:5500/src.e31bb0bc.js:31924:34)",
+    "at App"
   ]
 },
 {
-  "time": "Friday, March 19, 2021 3:22:25 PM",
-  "message": "Unexpected token ] in JSON at position 2374",
+  "time": "Monday, March 22, 2021 4:00:02 PM",
+  "message": {},
   "stack": [
-    "SyntaxError: Unexpected token ] in JSON at position 2374"
-  ]
-},
-{
-  "time": "Friday, March 19, 2021 3:25:42 PM",
-  "message": "Action that throws error was triggered.",
-  "stack": [
-    "Error: Action that throws error was triggered.",
-    "at handleDoSomethingBad (http://localhost:5500/src.e31bb0bc.js:30724:13)",
-    "at HTMLUnknownElement.callCallback (http://localhost:5500/src.e31bb0bc.js:7634:18)",
-    "at Object.invokeGuardedCallbackDev (http://localhost:5500/src.e31bb0bc.js:7683:20)",
-    "at invokeGuardedCallback (http://localhost:5500/src.e31bb0bc.js:7743:35)",
-    "at invokeGuardedCallbackAndCatchFirstError (http://localhost:5500/src.e31bb0bc.js:7758:29)",
-    "at executeDispatch (http://localhost:5500/src.e31bb0bc.js:11993:7)",
-    "at processDispatchQueueItemsInOrder (http://localhost:5500/src.e31bb0bc.js:12025:11)",
-    "at processDispatchQueue (http://localhost:5500/src.e31bb0bc.js:12038:9)",
-    "at dispatchEventsForPlugins (http://localhost:5500/src.e31bb0bc.js:12049:7)",
-    "at http://localhost:5500/src.e31bb0bc.js:12260:16"
-  ]
-},
-{
-  "time": "Friday, March 19, 2021 3:38:09 PM",
-  "message": "Action that throws error was triggered.",
-  "stack": [
-    "Error: Action that throws error was triggered.",
-    "at handleDoSomethingBad (http://localhost:5500/src.e31bb0bc.js:30725:13)",
-    "at HTMLUnknownElement.callCallback (http://localhost:5500/src.e31bb0bc.js:7634:18)",
-    "at Object.invokeGuardedCallbackDev (http://localhost:5500/src.e31bb0bc.js:7683:20)",
-    "at invokeGuardedCallback (http://localhost:5500/src.e31bb0bc.js:7743:35)",
-    "at invokeGuardedCallbackAndCatchFirstError (http://localhost:5500/src.e31bb0bc.js:7758:29)",
-    "at executeDispatch (http://localhost:5500/src.e31bb0bc.js:11993:7)",
-    "at processDispatchQueueItemsInOrder (http://localhost:5500/src.e31bb0bc.js:12025:11)",
-    "at processDispatchQueue (http://localhost:5500/src.e31bb0bc.js:12038:9)",
-    "at dispatchEventsForPlugins (http://localhost:5500/src.e31bb0bc.js:12049:7)",
-    "at http://localhost:5500/src.e31bb0bc.js:12260:16"
-  ]
-},
-{
-  "time": "Friday, March 19, 2021 3:54:59 PM",
-  "message": "Action that throws error was triggered.",
-  "stack": [
-    "Error: Action that throws error was triggered.",
-    "at handleDoSomethingBad (http://localhost:5500/src.e31bb0bc.js:30783:13)",
-    "at HTMLUnknownElement.callCallback (http://localhost:5500/src.e31bb0bc.js:7634:18)",
-    "at Object.invokeGuardedCallbackDev (http://localhost:5500/src.e31bb0bc.js:7683:20)",
-    "at invokeGuardedCallback (http://localhost:5500/src.e31bb0bc.js:7743:35)",
-    "at invokeGuardedCallbackAndCatchFirstError (http://localhost:5500/src.e31bb0bc.js:7758:29)",
-    "at executeDispatch (http://localhost:5500/src.e31bb0bc.js:11993:7)",
-    "at processDispatchQueueItemsInOrder (http://localhost:5500/src.e31bb0bc.js:12025:11)",
-    "at processDispatchQueue (http://localhost:5500/src.e31bb0bc.js:12038:9)",
-    "at dispatchEventsForPlugins (http://localhost:5500/src.e31bb0bc.js:12049:7)",
-    "at http://localhost:5500/src.e31bb0bc.js:12260:16"
-  ]
-},
-{
-  "time": "Friday, March 19, 2021 4:05:07 PM",
-  "message": "Action that throws error was triggered.",
-  "stack": [
-    "Error: Action that throws error was triggered.",
-    "at handleDoSomethingBad (http://localhost:5500/src.e31bb0bc.js:30783:13)",
-    "at HTMLUnknownElement.callCallback (http://localhost:5500/src.e31bb0bc.js:7634:18)",
-    "at Object.invokeGuardedCallbackDev (http://localhost:5500/src.e31bb0bc.js:7683:20)",
-    "at invokeGuardedCallback (http://localhost:5500/src.e31bb0bc.js:7743:35)",
-    "at invokeGuardedCallbackAndCatchFirstError (http://localhost:5500/src.e31bb0bc.js:7758:29)",
-    "at executeDispatch (http://localhost:5500/src.e31bb0bc.js:11993:7)",
-    "at processDispatchQueueItemsInOrder (http://localhost:5500/src.e31bb0bc.js:12025:11)",
-    "at processDispatchQueue (http://localhost:5500/src.e31bb0bc.js:12038:9)",
-    "at dispatchEventsForPlugins (http://localhost:5500/src.e31bb0bc.js:12049:7)",
-    "at http://localhost:5500/src.e31bb0bc.js:12260:16"
-  ]
-},
-{
-  "time": "Friday, March 19, 2021 4:05:08 PM",
-  "message": "Unexpected token d in JSON at position 2",
-  "stack": [
-    "SyntaxError: Unexpected token d in JSON at position 2"
-  ]
-},
-{
-  "time": "Friday, March 19, 2021 4:05:12 PM",
-  "message": "Unexpected token d in JSON at position 2",
-  "stack": [
-    "SyntaxError: Unexpected token d in JSON at position 2"
-  ]
-},
-{
-  "time": "Friday, March 19, 2021 4:20:02 PM",
-  "message": "Action that throws error was triggered.",
-  "stack": [
-    "Error: Action that throws error was triggered.",
-    "at handleDoSomethingBad (http://localhost:5500/src.e31bb0bc.js:30783:13)",
-    "at HTMLUnknownElement.callCallback (http://localhost:5500/src.e31bb0bc.js:7634:18)",
-    "at Object.invokeGuardedCallbackDev (http://localhost:5500/src.e31bb0bc.js:7683:20)",
-    "at invokeGuardedCallback (http://localhost:5500/src.e31bb0bc.js:7743:35)",
-    "at invokeGuardedCallbackAndCatchFirstError (http://localhost:5500/src.e31bb0bc.js:7758:29)",
-    "at executeDispatch (http://localhost:5500/src.e31bb0bc.js:11993:7)",
-    "at processDispatchQueueItemsInOrder (http://localhost:5500/src.e31bb0bc.js:12025:11)",
-    "at processDispatchQueue (http://localhost:5500/src.e31bb0bc.js:12038:9)",
-    "at dispatchEventsForPlugins (http://localhost:5500/src.e31bb0bc.js:12049:7)",
-    "at http://localhost:5500/src.e31bb0bc.js:12260:16"
-  ]
-},
-{
-  "time": "Friday, March 19, 2021 4:31:03 PM",
-  "message": "Action that throws error was triggered.",
-  "stack": [
-    "Error: Action that throws error was triggered.",
-    "at handleDoSomethingBad (http://localhost:5500/src.e31bb0bc.js:30800:13)",
-    "at HTMLUnknownElement.callCallback (http://localhost:5500/src.e31bb0bc.js:7634:18)",
-    "at Object.invokeGuardedCallbackDev (http://localhost:5500/src.e31bb0bc.js:7683:20)",
-    "at invokeGuardedCallback (http://localhost:5500/src.e31bb0bc.js:7743:35)",
-    "at invokeGuardedCallbackAndCatchFirstError (http://localhost:5500/src.e31bb0bc.js:7758:29)",
-    "at executeDispatch (http://localhost:5500/src.e31bb0bc.js:11993:7)",
-    "at processDispatchQueueItemsInOrder (http://localhost:5500/src.e31bb0bc.js:12025:11)",
-    "at processDispatchQueue (http://localhost:5500/src.e31bb0bc.js:12038:9)",
-    "at dispatchEventsForPlugins (http://localhost:5500/src.e31bb0bc.js:12049:7)",
-    "at http://localhost:5500/src.e31bb0bc.js:12260:16"
-  ]
-},
-{
-  "time": "Friday, March 19, 2021 4:31:14 PM",
-  "message": "Action that throws error was triggered.",
-  "stack": [
-    "Error: Action that throws error was triggered.",
-    "at handleDoSomethingBad (http://localhost:5500/src.e31bb0bc.js:30800:13)",
-    "at HTMLUnknownElement.callCallback (http://localhost:5500/src.e31bb0bc.js:7634:18)",
-    "at Object.invokeGuardedCallbackDev (http://localhost:5500/src.e31bb0bc.js:7683:20)",
-    "at invokeGuardedCallback (http://localhost:5500/src.e31bb0bc.js:7743:35)",
-    "at invokeGuardedCallbackAndCatchFirstError (http://localhost:5500/src.e31bb0bc.js:7758:29)",
-    "at executeDispatch (http://localhost:5500/src.e31bb0bc.js:11993:7)",
-    "at processDispatchQueueItemsInOrder (http://localhost:5500/src.e31bb0bc.js:12025:11)",
-    "at processDispatchQueue (http://localhost:5500/src.e31bb0bc.js:12038:9)",
-    "at dispatchEventsForPlugins (http://localhost:5500/src.e31bb0bc.js:12049:7)",
-    "at http://localhost:5500/src.e31bb0bc.js:12260:16"
-  ]
-},
-{
-  "time": "Friday, March 19, 2021 5:02:32 PM",
-  "message": "Action that throws error was triggered.",
-  "stack": [
-    "Error: Action that throws error was triggered.",
-    "at handleDoSomethingBad (http://localhost:5500/src.e31bb0bc.js:30830:13)",
-    "at HTMLUnknownElement.callCallback (http://localhost:5500/src.e31bb0bc.js:7634:18)",
-    "at Object.invokeGuardedCallbackDev (http://localhost:5500/src.e31bb0bc.js:7683:20)",
-    "at invokeGuardedCallback (http://localhost:5500/src.e31bb0bc.js:7743:35)",
-    "at invokeGuardedCallbackAndCatchFirstError (http://localhost:5500/src.e31bb0bc.js:7758:29)",
-    "at executeDispatch (http://localhost:5500/src.e31bb0bc.js:11993:7)",
-    "at processDispatchQueueItemsInOrder (http://localhost:5500/src.e31bb0bc.js:12025:11)",
-    "at processDispatchQueue (http://localhost:5500/src.e31bb0bc.js:12038:9)",
-    "at dispatchEventsForPlugins (http://localhost:5500/src.e31bb0bc.js:12049:7)",
-    "at http://localhost:5500/src.e31bb0bc.js:12260:16"
-  ]
-},
-{
-  "time": "Friday, March 19, 2021 5:23:32 PM",
-  "message": "Action that throws error was triggered.",
-  "stack": [
-    "Error: Action that throws error was triggered.",
-    "at handleDoSomethingBad (http://localhost:5500/src.e31bb0bc.js:30830:13)",
-    "at HTMLUnknownElement.callCallback (http://localhost:5500/src.e31bb0bc.js:7634:18)",
-    "at Object.invokeGuardedCallbackDev (http://localhost:5500/src.e31bb0bc.js:7683:20)",
-    "at invokeGuardedCallback (http://localhost:5500/src.e31bb0bc.js:7743:35)",
-    "at invokeGuardedCallbackAndCatchFirstError (http://localhost:5500/src.e31bb0bc.js:7758:29)",
-    "at executeDispatch (http://localhost:5500/src.e31bb0bc.js:11993:7)",
-    "at processDispatchQueueItemsInOrder (http://localhost:5500/src.e31bb0bc.js:12025:11)",
-    "at processDispatchQueue (http://localhost:5500/src.e31bb0bc.js:12038:9)",
-    "at dispatchEventsForPlugins (http://localhost:5500/src.e31bb0bc.js:12049:7)",
-    "at http://localhost:5500/src.e31bb0bc.js:12260:16"
+    "at ButtonsAndTimeline (http://localhost:5500/src.e31bb0bc.js:32076:49)",
+    "at ErrorBoundary (http://localhost:5500/src.e31bb0bc.js:31924:34)",
+    "at App"
   ]
 },
