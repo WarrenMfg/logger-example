@@ -1,5 +1,7 @@
 /* eslint-disable no-console */
 
+import toast from 'react-hot-toast';
+
 // debounce delay for logger
 const LOGGER_DEBOUNCE_DELAY = 500;
 
@@ -50,8 +52,11 @@ export const getHeaders = () => ({
  */
 export const logError = debounce(async error => {
   try {
+    // indicate error to user
+    toast.error("We're sorry, an error has occurred");
+    // get date
     const date = new Date(Date.now());
-
+    // post to logging service
     const response = await fetch('/logger/error', {
       method: 'POST',
       headers: getHeaders(),
@@ -71,9 +76,10 @@ export const logError = debounce(async error => {
         }, [])
       })
     });
+    // ensure logging service didn't return an error
     await handleErrors(response);
   } catch ({ message, stack }) {
-    // server error
+    // if logging service returned error, just log it
     console.error(message, stack);
   }
 }, LOGGER_DEBOUNCE_DELAY);
@@ -85,8 +91,9 @@ export const logError = debounce(async error => {
  */
 export const logAnalytics = debounce(async analytics => {
   try {
+    // get date
     const date = new Date(Date.now());
-
+    // post to logging service
     const response = await fetch('/logger/analytics', {
       method: 'POST',
       headers: getHeaders(),
@@ -100,9 +107,10 @@ export const logAnalytics = debounce(async analytics => {
         analytics
       })
     });
+    // ensure logging service didn't return an error
     await handleErrors(response);
   } catch ({ message, stack }) {
-    // server error
+    // if logging service returned error, just log it
     console.error(message, stack);
   }
 }, LOGGER_DEBOUNCE_DELAY);

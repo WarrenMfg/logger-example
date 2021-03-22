@@ -1,4 +1,0 @@
-{
-  "time": "Monday, March 22, 2021 4:02:09 PM",
-  "analytics": "User did something we want to track."
-},

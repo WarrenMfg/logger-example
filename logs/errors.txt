@@ -1,46 +1,22 @@
-
 {
-  "time": "Monday, March 22, 2021 3:58:30 PM",
+  "time": "Monday, March 22, 2021 4:49:43 PM",
   "message": {},
   "stack": [
-    "at ButtonsAndTimeline (http://localhost:5500/src.e31bb0bc.js:32077:49)",
-    "at ErrorBoundary (http://localhost:5500/src.e31bb0bc.js:31924:34)",
+    "at Buttons (http://localhost:5500/src.e31bb0bc.js:32916:26)",
+    "at ErrorBoundary (http://localhost:5500/src.e31bb0bc.js:32763:34)",
+    "at Logger (http://localhost:5500/src.e31bb0bc.js:33126:39)",
+    "at div",
     "at App"
   ]
 },
 {
-  "time": "Monday, March 22, 2021 3:59:10 PM",
+  "time": "Monday, March 22, 2021 4:53:15 PM",
   "message": {},
   "stack": [
-    "at ButtonsAndTimeline (http://localhost:5500/src.e31bb0bc.js:32081:49)",
-    "at ErrorBoundary (http://localhost:5500/src.e31bb0bc.js:31924:34)",
-    "at App"
-  ]
-},
-{
-  "time": "Monday, March 22, 2021 3:59:57 PM",
-  "message": {},
-  "stack": [
-    "at ButtonsAndTimeline (http://localhost:5500/src.e31bb0bc.js:32076:49)",
-    "at ErrorBoundary (http://localhost:5500/src.e31bb0bc.js:31924:34)",
-    "at App"
-  ]
-},
-{
-  "time": "Monday, March 22, 2021 3:59:59 PM",
-  "message": {},
-  "stack": [
-    "at ButtonsAndTimeline (http://localhost:5500/src.e31bb0bc.js:32076:49)",
-    "at ErrorBoundary (http://localhost:5500/src.e31bb0bc.js:31924:34)",
-    "at App"
-  ]
-},
-{
-  "time": "Monday, March 22, 2021 4:00:02 PM",
-  "message": {},
-  "stack": [
-    "at ButtonsAndTimeline (http://localhost:5500/src.e31bb0bc.js:32076:49)",
-    "at ErrorBoundary (http://localhost:5500/src.e31bb0bc.js:31924:34)",
+    "at Buttons (http://localhost:5500/src.e31bb0bc.js:32918:26)",
+    "at ErrorBoundary (http://localhost:5500/src.e31bb0bc.js:32768:34)",
+    "at Logger (http://localhost:5500/src.e31bb0bc.js:33128:39)",
+    "at div",
     "at App"
   ]
 },

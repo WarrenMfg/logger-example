@@ -1,15 +1,15 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 
 import { logAnalytics, logError, handleErrors } from '../utils';
 
-function ButtonsAndTimeline() {
-  // track container for outputting logs
-  const healthAndAnalyticsRef = useRef(null);
+function Buttons({ timelineRef }) {
   // state for triggering error
   const [count, setCount] = useState(0);
 
   useEffect(() => {
     if (count > 0) {
+      // uncaught error to be caught by ErrorBoundary
       throw new Error('Action that throws error was triggered');
     }
   }, [count]);
@@ -19,8 +19,8 @@ function ButtonsAndTimeline() {
    */
   const handleDoSomethingBad = () => {
     // in reality this would be a click handler doing normal stuff...
-    // but instead, clear healthAndAnalyticsRef
-    healthAndAnalyticsRef.current.innerText = '';
+    // but instead, clear timelineRef
+    timelineRef.current.innerText = '';
     // trigger error
     setCount(prevCount => prevCount + 1);
   };
@@ -30,8 +30,8 @@ function ButtonsAndTimeline() {
    */
   const handleTrackUser = () => {
     // in reality this would be a click handler doing normal stuff...
-    // but instead, clear healthAndAnalyticsRef
-    healthAndAnalyticsRef.current.innerText = '';
+    // but instead, clear timelineRef
+    timelineRef.current.innerText = '';
     // invoke analytics logger
     logAnalytics('User did something we want to track.');
   };
@@ -43,11 +43,7 @@ function ButtonsAndTimeline() {
     try {
       const response = await fetch('/logger/errors');
       const { data } = await handleErrors(response);
-      healthAndAnalyticsRef.current.innerText = JSON.stringify(
-        data.reverse(),
-        null,
-        2
-      );
+      timelineRef.current.innerText = JSON.stringify(data.reverse(), null, 2);
     } catch (error) {
       logError(error);
     }
@@ -60,19 +56,15 @@ function ButtonsAndTimeline() {
     try {
       const response = await fetch('/logger/analytics');
       const { data } = await handleErrors(response);
-      healthAndAnalyticsRef.current.innerText = JSON.stringify(
-        data.reverse(),
-        null,
-        2
-      );
+      timelineRef.current.innerText = JSON.stringify(data.reverse(), null, 2);
     } catch (error) {
       logError(error);
     }
   };
 
   return (
-    <div className='container mx-auto py-8 flex flex-col items-center min-h-screen'>
-      <h1 className='text-3xl mb-4'>Logger R&amp;D</h1>
+    <div>
+      <h1 className='text-center text-3xl mb-4'>Logger R&amp;D</h1>
       <div className='flex justify-center space-x-16 mb-4'>
         <div className='w-min'>
           <button
@@ -103,9 +95,12 @@ function ButtonsAndTimeline() {
           </button>
         </div>
       </div>
-      <pre ref={healthAndAnalyticsRef}></pre>
     </div>
   );
 }
 
-export default ButtonsAndTimeline;
+Buttons.propTypes = {
+  timelineRef: PropTypes.object.isRequired
+};
+
+export default Buttons;
