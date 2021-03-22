@@ -3,6 +3,9 @@ import PropTypes from 'prop-types';
 
 import { logError } from '../utils';
 
+/**
+ * ErrorBoundary - stateful class component
+ */
 class ErrorBoundary extends Component {
   constructor(props) {
     super(props);
@@ -12,12 +15,24 @@ class ErrorBoundary extends Component {
     };
   }
 
+  /**
+   * Catch uncaught errors in children and trigger rerender
+   */
+  static getDerivedStateFromError({ message, stack }) {
+    return { message, stack };
+  }
+
+  /**
+   * Catch uncaught errors in children and invoke side effects
+   */
   componentDidCatch(message, { componentStack: stack }) {
-    this.setState({ message, stack });
     // log error messages to an error reporting service here
     logError({ message, stack });
   }
 
+  /**
+   * Render children
+   */
   render() {
     return this.props.children;
   }
